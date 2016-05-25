@@ -8,20 +8,22 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <!-- Los estilos estan ubicados en la Carpeta estilos-->
         <link type="text/css" href="Estilos/EstilosIndex.css" rel="stylesheet">
         <link href="Estilos/bootstrap.min.css" rel="stylesheet" />
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+        <!-- Scrip para funcion insertar y registrarse-->
         <script type="text/javascript" src="js/ScriptsIndex.js"></script>
-        <!--<script type="text/javascript" src="js/bootstrap.min.js" ></script>-->
     </head>
     <body>
         <div id="web">
             <header>
-                <!--<img src="./imagenes/cliente.jpg" id="logo">-->
+                <!--Imagen ayuda-->
                 <a href="#" title="Ayuda" class="ayuda">
                     <img src="./Imagenes/ayuda.png">
                 </a>
                 <h3>BICI-$TORE</h3>
+                <!--Opciones iniciar y registrarse-->
                 <nav class="menu2">
                     <menu>
                         <li><a href="#" id="botonRegistrarse" class="a" title="Registrarse">Registrarse</a></li>
@@ -30,6 +32,7 @@ and open the template in the editor.
                 </nav>
                 
             </header>
+            <!--  Menu parte izquierda de la pagina-->
             <div id="menuIzq">
                 <p class="cat"><a href="#" class="a">Categoria</a></p>
                 <p class="cat"><a href="#" class="a">Precio</a></p>
@@ -38,6 +41,7 @@ and open the template in the editor.
                     Bici-$tore es una pagina de compra y venta de bicicletas, aquí encontraras la cicla de tus sueños, ingresa al mundo web donde comprar es mas fácil!
                 </p>
             </div>
+            <!-- Aca esta el catalogo de los servicios, me falta completarlo para que relacione con verProductos de jeison-->
             <div id="catalogo">
                 <div class="row">
 
@@ -171,11 +175,13 @@ and open the template in the editor.
                                 </p>
                             </div>
                         </div>
+                        <!-- botones atras y siguiente, no se si pueda servir o alcanzar a meter la logica-->
                         <br><input type="submit" name="guardar" class="btn btn-success btn-sm" value="Siguiente">
                         <input type="submit" name="guardar" class="btn btn-success btn-sm" value="   Atras   ">
                     </div>
                 </div>
                 <div id="contenedor"></div>
+                <!-- formulario ingresar-->
                 <div id="contenedorFormIniciar">
                     <p class="ingresar">INGRESAR</p>
                     <form method="post" action="Control.php" enctype="multipart/form-data" >
@@ -187,6 +193,7 @@ and open the template in the editor.
                         <input type="submit" name="Ingresar" value=" Ingresar ">
                     </form>
                 </div>
+                <!-- Formulario registrarse-->
                 <div id="contenedorFormRegistrarse">
                     <form method="post" action="Control.php" enctype="multipart/form-data" >
                         <p class="ingresar">REGISTRARSE</p>

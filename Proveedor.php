@@ -20,6 +20,8 @@ and open the template in the editor.
                 <!--<img src="./imagenes/cliente.jpg" id="logo">-->
                 <a href="#" title="ver Perfil" class="a"><h3>PROVEEDOR: <?php echo $_GET['user']; ?></h3></a>
                 <nav class="menu2">
+                    <!-- Aqui es donde ustedes deben colocar las funcionalidades que tienen, solo colocan el li a href y colocar su funcion-->
+                    <!-- Deben colocar las mismas clases en este caso class="a"-->
                     <menu>
                         <li><a href="index.php" id="cerrarSesion" class="a" title="Cerrar Sesion">Cerrar Sesion</a></li>
                         <li><a href="#" id="crearDiseño" class="a" title="Registrarse">Publicar Producto</a></li>

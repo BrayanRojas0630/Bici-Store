@@ -5,6 +5,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
+/*ESTA CLASE ES LA QUE UNE EL HTML CON EL PHP*/
 include 'DataBase.php';
 if (isset($_POST['Ingresar'])) {
     $db = new DataBase('bici$tore');
@@ -46,7 +49,7 @@ if (isset($_POST['Ingresar'])) {
     $db->conectar();
     $datosUsuario = array($_POST['usuario'], $_POST['pass'], "Cliente");
     $datosCliente = array($_POST['usuario'], $_POST['nombre'], $_POST['apellido'], $_POST['correo'], $_POST['pass'], $_POST['direccion'], $_POST['telefono']);
-    $db->insertar1($datosUsuario, "usuario");
-    $db->insertar1($datosCliente, "cliente");
+    $db->insertar($datosUsuario, "usuario");
+    $db->insertar($datosCliente, "cliente");
     header('location: index.php');
 }

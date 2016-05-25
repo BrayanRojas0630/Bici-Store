@@ -18,12 +18,14 @@ and open the template in the editor.
     <body>
         <div id="web">
             <header>
-                <!--<img src="./imagenes/cliente.jpg" id="logo">-->
+                <!--ES EXACTAMENTE LO MISMO QUE EN EL INDEX, EN ESTE CASO ESTA EL CARRITO DE COMPRAS-->
                 <a href="#" title="Ayuda" class="ayuda">
                     <img src="./Imagenes/carrito.png">
                 </a>
                 <a href="#" title="ver Perfil" class="a"><h3>CLIENTE: <?php echo $_GET['user']; ?></h3></a>
                 <nav class="menu2">
+                    <!-- Aqui es donde ustedes deben colocar las funcionalidades que tienen, solo colocan el li a href y colocar su funcion-->
+                    <!-- Deben colocar las mismas clases en este caso class="a"-->
                     <menu>
                         <li><a href="#" id="crearDiseño" class="a" title="Registrarse">Crear mi Diseño</a></li>
                         <li><a href="#" id="compras" class="a" title="Registrarse">Ver Compras</a></li>
