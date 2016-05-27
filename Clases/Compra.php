@@ -12,5 +12,26 @@
  * @author Brayan
  */
 class Compra {
-    //put your code here
+    private $producto;
+    private $cliente;
+    private $proveedor;
+    
+    function __construct($producto, $cliente, $proveedor) {
+        $this->producto = $producto;
+        $this->cliente = $cliente;
+        $this->proveedor = $proveedor;
+    }
+    
+    public function realizarTransaccion(){
+        
+    }
+    
+    public function validarCompra(){
+        
+    }
+    
+    public function guardarCompra(){
+        
+    }
+
 }

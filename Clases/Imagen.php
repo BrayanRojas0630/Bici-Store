@@ -12,5 +12,26 @@
  * @author Brayan
  */
 class Imagen {
-    //put your code here
+    private $nombre;
+    private $producto;
+    private $diseño;
+    
+    function __construct($nombre, $producto, $diseño) {
+        $this->nombre = $nombre;
+        $this->producto = $producto;
+        $this->diseño = $diseño;
+    }
+    
+    public function agregarImagen(){
+        
+    }
+    
+    public function actualizarImagen(){
+        
+    }
+    
+    public function eliminarImagen(){
+        
+    }
+
 }

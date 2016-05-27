@@ -12,5 +12,19 @@
  * @author Brayan
  */
 class Administrador {
-    //put your code here
+    public function registrar(){
+        
+    }
+    
+    private function registrarProveedor(){
+        
+    }
+    
+    private function registrarMensajero(){
+        
+    }
+    
+    private function validarDiseñoCliente(){
+        
+    }
 }

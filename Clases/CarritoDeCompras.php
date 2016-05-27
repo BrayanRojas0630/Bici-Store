@@ -12,5 +12,27 @@
  * @author Brayan
  */
 class CarritoDeCompras {
-    //put your code here
+    private $producto;
+    
+    function __construct($producto) {
+        $this->producto = $producto;
+    }
+    
+    public function verCarrito(){
+        
+    }
+    
+    public function añadirAlCarrito(){
+        
+    }
+    
+    public function eliminarDelCarrito(){
+        
+    }
+    
+    public function comprar(){
+        
+    }
+
+
 }

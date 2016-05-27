@@ -12,5 +12,29 @@
  * @author Brayan
  */
 class Diseño {
-    //put your code here
+    private $cliente;
+    private $nombre;
+    private $tipo;
+    private $descripcion;
+    private $costoEstimado;
+    
+    function __construct($cliente, $nombre, $tipo, $descripcion, $costoEstimado) {
+        $this->cliente = $cliente;
+        $this->nombre = $nombre;
+        $this->tipo = $tipo;
+        $this->descripcion = $descripcion;
+        $this->costoEstimado = $costoEstimado;
+    }
+
+    public function crearDiseño(){
+        
+    }
+    
+    public function actualizarDiseño(){
+        
+    }
+    
+    public function eliminarDiseño(){
+        
+    }
 }

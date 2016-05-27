@@ -12,5 +12,24 @@
  * @author Brayan
  */
 class Mensaje {
-    //put your code here
+
+    private $remitente;
+    private $destinatario;
+    private $diseño;
+    
+    function __construct($remitente, $destinatario, $diseño) {
+        $this->remitente = $remitente;
+        $this->destinatario = $destinatario;
+        $this->diseño = $diseño;
+    }
+    
+    public function enviarMensaje(){
+        
+    }
+    
+    public function redactarMensaje(){
+        
+    }
+
+
 }

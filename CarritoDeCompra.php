@@ -30,7 +30,19 @@ and open the template in the editor.
             </header>
             <div id="carrito">
                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                    <thead><tr><th>Numero</th><th>Cedula</th><th>Nombre</th><th>Apellido</th><th>Correo</th></tr></thead><tr><td>1</td><td><a href="editar.php?id=1015461009" target="_blank">1015461009</a></td><td>Juan</td><td>gomez</td><td>juan@hotmail.co</td></tr><tr><td>2</td><td><a href="editar.php?id=1019876543" target="_blank">1019876543</a></td><td>Victor hugo</td><td>Prada</td><td>ff@z.net</td></tr><tr><td>3</td><td><a href="editar.php?id=1020369512" target="_blank">1020369512</a></td><td>Gustavo</td><td>Rodriguez</td><td>gustavo@gmail.com</td></tr><tr><td>4</td><td><a href="editar.php?id=1073512998" target="_blank">1073512998</a></td><td>juan</td><td>hernandez</td><td>carlos.hernandez@unicafam.net.co</td></tr><tr><td>5</td><td><a href="editar.php?id=2147483647" target="_blank">2147483647</a></td><td>Dora</td><td>Veltran</td><td>mia@kalifa.porn</td></tr> 
+                    <thead>
+                        <tr><th>Numero</th>
+                            <th>Cedula</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo</th>
+                        </tr>
+                    </thead>
+                    <tr><td>1</td><td><a href="editar.php?id=1015461009" target="_blank">1015461009</a></td><td>Juan</td><td>gomez</td><td>juan@hotmail.co</td></tr>
+                    <tr><td>2</td><td><a href="editar.php?id=1019876543" target="_blank">1019876543</a></td><td>Victor hugo</td><td>Prada</td><td>ff@z.net</td></tr>
+                    <tr><td>3</td><td><a href="editar.php?id=1020369512" target="_blank">1020369512</a></td><td>Gustavo</td><td>Rodriguez</td><td>gustavo@gmail.com</td></tr>
+                    <tr><td>4</td><td><a href="editar.php?id=1073512998" target="_blank">1073512998</a></td><td>juan</td><td>hernandez</td><td>carlos.hernandez@unicafam.net.co</td></tr>
+                    <tr><td>5</td><td><a href="editar.php?id=2147483647" target="_blank">2147483647</a></td><td>Dora</td><td>Veltran</td><td>mia@kalifa.porn</td></tr> 
                 </table> 
             </div>
         </div>

@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
         <link type="text/css" href="Estilos/EstilosCliente.css" rel="stylesheet">
         <link href="Estilos/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="js/ScriptsIndex.js"></script>
         <!--<script type="text/javascript" src="js/bootstrap.min.js" ></script>-->
@@ -19,7 +19,7 @@ and open the template in the editor.
         <div id="web">
             <header>
                 <!--ES EXACTAMENTE LO MISMO QUE EN EL INDEX, EN ESTE CASO ESTA EL CARRITO DE COMPRAS-->
-                <a href="#" title="Ayuda" class="ayuda">
+                <a href="CarritoDeCompra.php" title="Ayuda" class="ayuda">
                     <img src="./Imagenes/carrito.png">
                 </a>
                 <a href="#" title="ver Perfil" class="a"><h3>CLIENTE: <?php echo $_GET['user']; ?></h3></a>
@@ -27,7 +27,7 @@ and open the template in the editor.
                     <!-- Aqui es donde ustedes deben colocar las funcionalidades que tienen, solo colocan el li a href y colocar su funcion-->
                     <!-- Deben colocar las mismas clases en este caso class="a"-->
                     <menu>
-                        <li><a href="#" id="crearDiseño" class="a" title="Registrarse">Crear mi Diseño</a></li>
+                        <li><a href="#" id="crearDiseño" class="a" title="Registrarse">Cerrar<br>Sesion</a></li>
                         <li><a href="#" id="compras" class="a" title="Registrarse">Ver Compras</a></li>
                     </menu>
                 </nav>
@@ -48,7 +48,7 @@ and open the template in the editor.
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
+                                <h4><a href="#"><?php echo $_GET['user']; ?></a>
                                 </h4>
                                 <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                             </div>

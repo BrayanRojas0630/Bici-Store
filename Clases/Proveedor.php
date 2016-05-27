@@ -12,5 +12,22 @@
  * @author Brayan
  */
 class Proveedor {
-    //put your code here
+    private $nroCuenta;
+    
+    function __construct($nroCuenta) {
+        $this->nroCuenta = $nroCuenta;
+    }
+    
+    public function publicarProducto(){
+        
+    }
+    
+    public function actualizarProducto(){
+        
+    }
+    
+    public function verDiseñosCliente(){
+        
+    }
+
 }

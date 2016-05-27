@@ -12,5 +12,30 @@
  * @author Brayan
  */
 class Producto {
-    //put your code here
+    private $proveedor;
+    private $nombre;
+    private $tipo;
+    private $descripcion;
+    private $costo;
+    
+    function __construct($proveedor, $nombre, $tipo, $descripcion, $costo) {
+        $this->proveedor = $proveedor;
+        $this->nombre = $nombre;
+        $this->tipo = $tipo;
+        $this->descripcion = $descripcion;
+        $this->costo = $costo;
+    }
+    
+    public function crearProducto(){
+        
+    }
+    
+    public function actualizarProducto(){
+        
+    }
+    
+    public function eliminarProducto() {
+        
+    }
+
 }

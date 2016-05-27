@@ -12,5 +12,33 @@
  * @author Brayan
  */
 class Cliente {
-    //put your code here
+    private $correo;
+    private $direccion;
+    private $correo;
+    
+    function __construct($correo, $direccion, $correo) {
+        $this->correo = $correo;
+        $this->direccion = $direccion;
+        $this->correo = $correo;
+    }
+
+    public function registrarse(){
+        
+    }
+    
+    public function crearDiseño(){
+        
+    }
+    
+    public function añadirAlCarrito(){
+        
+    }
+    
+    public function comprar(){
+        
+    }
+    
+    public function calificarServicio(){
+        
+    }
 }
