@@ -23,27 +23,28 @@ and open the template in the editor.
                     <!-- Aqui es donde ustedes deben colocar las funcionalidades que tienen, solo colocan el li a href y colocar su funcion-->
                     <!-- Deben colocar las mismas clases en este caso class="a"-->
                     <menu>
-                        <li><a href="Proveedor.php" id="cerrarSesion" class="a" title="Cerrar Sesion">Cerrar Sesion</a></li>
+                        <li><a href="index.php" id="cerrarSesion" class="a" title="Cerrar Sesion">Cerrar Sesion</a></li>
                         <li><a href="publicarProducto.php" id="crearDiseño" class="a" title="Registrarse">Publicar Producto</a></li>
                         <li><a href="ofertasClientes.php" id="verOfertas" class="a" title="diseños">Diseños Clientes</a></li>
                         <a href="index.php" title="ver Perfil" class="a"><h3>Ver perfil</h3></a>
                     </menu>
                 </nav>
             </header>
-            <div id="menuIzq">
-                <p class="cat"><a href="#" class="a">Categoria</a></p>
-                <p class="cat"><a href="#" class="a">Precio</a></p>
-                <p class="cat"><a href="#" class="a">Ubicacion</a></p>
-                <p class="info">
-                    Bici-$tore es una pagina de compra y venta de bicicletas, aquí encontraras la cicla de tus sueños, ingresa al mundo web donde comprar es mas fácil!
-                </p>
-            </div>
             <div id="catalogo">
                 <div class="row">
                     <form  method="post" action="control.php" enctype="multipart/form-data">
                         <div id="subir">
-                            <h4>Para subir sus productos seleccione el archivo dandole click al soguiente botón</h4>
-                            
+                            <fieldset>
+                                <legend><marquee>SUBIR PRODUCTOS</marquee></legend>
+                                <center><div id="imagen"> <label for="imagen">Seleccione el producto:<span>*</span></label><input type="submit" name="imagen" value="subir imagen" id="producto" class="boton" required style="margin-left:1%; width:150px; margin-bottom:30px;"/></div></center><br>
+                                <div id="id"> <label for="idI">Codigo del Producto:<span>*</span></label><input type="text" id="nombreI" name="codigoI" required style="margin-left:8%; width:200px; margin-bottom:30px;"/></div>   
+                                <div id="nick"> <label for="nIck">NickName:<span>*</span></label><input type="text" id="nombreI" name="nickI" required style="margin-left:14%; width:200px; margin-bottom:30px;"/></div>   
+                                <div id="nombre"> <label for="Nombre">Nombre del producto:<span>*</span></label><input type="text" id="nombreI" name="nombreI" required style="margin-left:6%; width:200px; margin-bottom:30px;"/></div>   
+                                <div id="tipo"> <label for="tIpo">Tipo del producto:<span>*</span></label><input type="text" id="nombreI" name="tipoI" required style="margin-left:3%; width:200px; margin-bottom:30px;"/></div>   
+                                <div id="descripcion"> <label for="descrip">Descripcion del producto:<span>*</span></label><input type="text" id="nombreI" name="descipcionI" required style="margin-left:1%; width:200px; margin-bottom:30px;"/></div>   
+                                <div id="costo"> <label for="costo">Costo del producto:<span>*</span></label><input type="text" id="nombreI" name="costoI" required style="margin-left:1%; width:200px; margin-bottom:30px;"/></div><br><br><br>
+                                <center><input type="submit" name="enviar" value="Enviar Producto" id="producto" class="boton"></center>
+                            </fieldset>
                         </div>
                     </form>
                 </div>
