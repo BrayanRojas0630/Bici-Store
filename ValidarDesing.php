@@ -24,7 +24,7 @@ and open the template in the editor.
                     <!-- Aqui es donde ustedes deben colocar las funcionalidades que tienen, solo colocan el li a href y colocar su funcion-->
                     <!-- Deben colocar las mismas clases en este caso class="a"-->
                     <menu>
-                        <li><a href="#" id="inicio" class="a" title="Inicio">Inicio</a></li>
+                        <li><a href="Administrador.php?user=" id="inicio" class="a" title="Inicio">Inicio</a></li>
                     </menu>
                 </nav>
             </header>

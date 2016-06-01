@@ -8,7 +8,7 @@
 
 
 /*ESTA CLASE ES LA QUE UNE EL HTML CON EL PHP*/
-include 'DataBase.php';
+include 'Clases/DataBase.php';
 if (isset($_POST['Ingresar'])) {
     $db = new DataBase('bici$tore');
     $db->conectar();
