@@ -34,14 +34,12 @@ and open the template in the editor.
                         <div id="subir">
                             <fieldset>
                                 <legend><marquee>SUBIR DISEÑO</marquee></legend>
-                                <center><div id="imagen"> <label for="imagen">Seleccione el producto:<span>*</span></label><input type="submit" name="imagen" value="subir imagen" id="producto" class="boton" required style="margin-left:1%; width:150px; margin-bottom:30px;"/></div></center><br>
-                                <div id="id"> <label for="idI">Codigo del Producto:<span>*</span></label><input type="text" id="nombreI" name="codigoI" required style="margin-left:8%; width:200px; margin-bottom:30px;"/></div>   
-                                <div id="nick"> <label for="nIck">NickName:<span>*</span></label><input type="text" id="nombreI" name="nickI" required style="margin-left:14%; width:200px; margin-bottom:30px;"/></div>   
+                                <center><div id="imagen"> <label for="imagen">Seleccione el producto:<span>*</span></label><input type="file" name="imagen"  id="producto" style="margin-left: 36%; margin-bottom: 2%;"/></div></center><br>
                                 <div id="nombre"> <label for="Nombre">Nombre del producto:<span>*</span></label><input type="text" id="nombreI" name="nombreI" required style="margin-left:6%; width:200px; margin-bottom:30px;"/></div>   
                                 <div id="tipo"> <label for="tIpo">Tipo del producto:<span>*</span></label><input type="text" id="nombreI" name="tipoI" required style="margin-left:3%; width:200px; margin-bottom:30px;"/></div>   
-                                <div id="descripcion"> <label for="descrip">Descripcion del producto:<span>*</span></label><input type="text" id="nombreI" name="descipcionI" required style="margin-left:1%; width:200px; margin-bottom:30px;"/></div>   
+                                <div id="descripcion"> <label for="descrip">Descripcion del producto:<span>*</span></label><textarea rows="4" cols="30" id="nombreI" name="descripcionI" placeholder="Escriba sus especificaciones" style="margin-bottom: 3%;"></textarea></div>  
                                 <div id="costo"> <label for="costo">Costo del producto:<span>*</span></label><input type="text" id="nombreI" name="costoI" required style="margin-left:1%; width:200px; margin-bottom:30px;"/></div><br><br><br>
-                                <center><input type="submit" name="enviar" value="Enviar Producto" id="producto" class="boton"></center>
+                                <center><input type="submit" name="crearDesing" value="Enviar Producto" id="producto" class="boton"></center>
                             </fieldset>
                         </div>
                     </form>

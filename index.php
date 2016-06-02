@@ -57,7 +57,7 @@ and open the template in the editor.
                                 <img src="http://placehold.it/320x150" alt="">
                                 <div class="caption">
                                     <h4 class="pull-right">$'.$row['costo'].'</h4>
-                                    <h4><a href="#">'.$row['nombre'].'</a>
+                                    <h4><a href="VerProducto.php?id='.$row['id'].'">'.$row['nombre'].'</a>
                                     </h4>
                                     <p><a target="_blank" href="#">Ver Mas</a>.</p>
                                 </div>

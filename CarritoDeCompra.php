@@ -12,8 +12,7 @@ and open the template in the editor.
         <link href="Estilos/bootstrap.min.css" rel="stylesheet" />
         <link href="Estilos/dataTables.bootstrap.css" rel="stylesheet">
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-        <script src="js/dataTables.bootstrap.min.js"></script><!--
-        <script type="text/javascript" src="js/ScriptsIndex.js"></script>-->
+        <script src="js/dataTables.bootstrap.min.js"></script>
     </head>
     <body>
         <div id="web">
